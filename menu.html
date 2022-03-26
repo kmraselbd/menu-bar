@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Bar</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+ul{
+  text-align: center; 
+}
+ul li{
+  display: inline-block;
+  margin-left: -5px;
+}
+ul li a{
+  display: block;
+  background: yellow;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: red;
+  border: 1px solid green;
+  font-size: 20px;
+}
+ul li a:hover{
+  background: rgb(99, 99, 6);
+  color: #fff;
+  transition: .3s;
+  border-color: red;
+}
+.home-menu{
+text-align: center;
+
+}
+.home-menu li{
+  display: inline-block;
+  margin-left: -5px;
+}
+.home-menu li a{
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  display: block;
+  border: 1px solid red;
+  text-decoration: none;
+  font-size: 20px;
+}
+.home-menu li a:hover{
+  background: rgb(5, 70, 5);
+  transition: .3s;
+  border-color: orange;
+}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Product</a></li>
+    <li><a href="#">Testimonial</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <br><br>
+  <ul class="home-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Testimonial</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</body>
+</html>
